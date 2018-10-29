@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/malegkin/editor/src/main.cpp
+stdafx.h
+/home/travis/build/malegkin/editor/src/stdafx.h
+
+src/include/stdafx.h
+iostream
+-
+string
+-
+vector
+-
+list
+-
+map
+-
+

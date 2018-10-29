@@ -1,0 +1,13 @@
+/home/travis/build/malegkin/editor/CMakeFiles/install/strip.dir
+/home/travis/build/malegkin/editor/CMakeFiles/install/local.dir
+/home/travis/build/malegkin/editor/CMakeFiles/edit_cache.dir
+/home/travis/build/malegkin/editor/CMakeFiles/rebuild_cache.dir
+/home/travis/build/malegkin/editor/CMakeFiles/list_install_components.dir
+/home/travis/build/malegkin/editor/CMakeFiles/install.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/install/strip.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/install/local.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/editor.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/edit_cache.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/rebuild_cache.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/install.dir
+/home/travis/build/malegkin/editor/src/CMakeFiles/list_install_components.dir
