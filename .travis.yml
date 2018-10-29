@@ -1,0 +1,30 @@
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      addons:
+        apt:
+          packages:
+            - doxygen
+            - graphviz
+
+before_script:
+    - export _PROJECT_NAME=$(cat .project_name) 
+    - export _PROJECT_VERSION=$(cat .version)
+    - export _PROJECT_DEB_NAME="$_PROJECT_NAME-$_PROJECT_VERSION.$TRAVIS_BUILD_NUMBER-Linux.deb"
+
+
+script:
+    - cmake .
+    - cmake --build .
+    - doxygen
+
+
+deploy:
+    - provider: pages
+      skip-cleanup: true
+      github-token: $GH_TOKEN
+      keep-history: true
+      on:
+        branch: master
