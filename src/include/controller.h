@@ -15,7 +15,9 @@ public:
 
 
     void saveAs(std::string file_name){
-
+        for (auto a: _model->getShapes()){
+            a.second->serialize();
+        }
     }
 
     void save(){
