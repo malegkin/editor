@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['save',['save',['../class_controller.html#ae0f9dec048daf5dfdd42b82072ac6185',1,'Controller']]],
+  ['saveas',['saveAs',['../class_controller.html#a6fe322152f86d083d22473753fb357fb',1,'Controller']]],
   ['serialize',['serialize',['../class_shape.html#acf559a2d89e7560fbfb40a01b21f81b5',1,'Shape']]],
   ['setmodel',['setModel',['../class_view.html#aae801a3576c7b6c236ede6d4d6717c06',1,'View']]],
   ['shape',['Shape',['../class_shape.html',1,'Shape'],['../class_shape.html#aaa8d87171e65e0d8ba3c5459978992a7',1,'Shape::Shape()']]],

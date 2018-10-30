@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_28_29',['operator()',['../struct_enum_class_hash.html#a02ef43aab3f3004ec306c58d3ebd423a',1,'EnumClassHash']]]
+  ['notifyupdate',['notifyUpdate',['../class_observable.html#a173482a397ad2669b114a424bd2fe3ac',1,'Observable']]]
 ];

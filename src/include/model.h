@@ -19,6 +19,11 @@ public:
         notifyUpdate();
     }
 
+    void clear(){
+        _shapes.clear();
+        notifyUpdate();
+    }
+
     const shapes_t & getShapes(){
         return _shapes;
     }

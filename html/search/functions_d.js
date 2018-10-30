@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['view',['View',['../class_view.html#a44ad60a768422d3fa8fbd7576950080a',1,'View::View()'],['../class_view.html#a9b238149eafd4bb390ca043437e2b5e8',1,'View::View(std::shared_ptr&lt; Model &gt; model)']]]
+  ['update',['update',['../class_i_observer.html#a91a4770cbec97439f2faba69a1ed72e0',1,'IObserver::update()'],['../class_view.html#a1c98202846728b495760fad0907b8b0f',1,'View::update()']]]
 ];

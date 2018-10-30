@@ -11,10 +11,10 @@ public:
 
 class Observable
 {
-    std::vector<IObserver*> _observers;
+    std::vector<std::shared_ptr<IObserver>> _observers;
 
 public:
-    void addObserver(IObserver *observer)
+    void addObserver(std::shared_ptr<IObserver> observer)
     {
         _observers.push_back(observer);
     }

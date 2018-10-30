@@ -22,21 +22,18 @@ int main()
 {
     try {
 
-        auto m = std::shared_ptr<Model>( new Model());
-        auto v = std::shared_ptr<View>( new View(m));
+        auto model = std::shared_ptr<Model>( new Model() );
+        auto view = std::shared_ptr<View>( new View(model));
 
+        auto controller = std::shared_ptr<Controller>( new Controller(view, model));
 
-        m->addShape( ShapeFactory::instantiate(Shapes::CIRCLE, 1, 2, 3) );
-        m->addShape( ShapeFactory::instantiate(Shapes::SQUARE, 1, 2, 3, 4) );
-        m->addShape( ShapeFactory::instantiate(Shapes::ELLIPSE, 1, 2, 3, 4, 5) );
+        controller->addShape( ShapeFactory::instantiate(Shapes::CIRCLE, 1, 2, 3) );
+        controller->addShape( ShapeFactory::instantiate(Shapes::SQUARE, 1, 2, 3, 4) );
+        controller->addShape( ShapeFactory::instantiate(Shapes::ELLIPSE, 1, 2, 3, 4, 5) );
 
+        controller->removeShape(1);
 
-
-        for (auto a: m->getShapes()){
-            a.second->draw();
-        }
-
-        v->update();
+        controller->close();
 
 
         //std::cout << typeid( ShapeFactory::instantiate(Shapes::CIRCLE, 1, 2, 3).get()).name() << std::endl;

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7eiobserver',['~IObserver',['../class_i_observer.html#a1306da2dbaf55620130af5586e3a0373',1,'IObserver']]],
-  ['_7eshape',['~Shape',['../class_shape.html#ac8ad2fd02e1e94beeb98e65ab795cd56',1,'Shape']]]
+  ['view',['View',['../class_view.html#a44ad60a768422d3fa8fbd7576950080a',1,'View::View()'],['../class_view.html#a9b238149eafd4bb390ca043437e2b5e8',1,'View::View(std::shared_ptr&lt; Model &gt; model)']]]
 ];

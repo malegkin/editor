@@ -109,23 +109,29 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="class_observable.html#a173482a397ad2669b114a424bd2fe3ac">notifyUpdate</a>();</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">   22</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="model_8h.html#a20f87b4e5f8cd3bd25dffa8e90e1340c">shapes_t</a> &amp; <a class="code" href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">getShapes</a>(){</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> _shapes;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_model.html#a7b8102ec95ed8796b01501bf054a3330">   22</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_model.html#a7b8102ec95ed8796b01501bf054a3330">clear</a>(){</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        _shapes.clear();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="class_observable.html#a173482a397ad2669b114a424bd2fe3ac">notifyUpdate</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="model_8h.html#a20f87b4e5f8cd3bd25dffa8e90e1340c">shapes_t</a> _shapes;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">   27</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="model_8h.html#a20f87b4e5f8cd3bd25dffa8e90e1340c">shapes_t</a> &amp; <a class="code" href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">getShapes</a>(){</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> _shapes;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="model_8h.html#a20f87b4e5f8cd3bd25dffa8e90e1340c">shapes_t</a> _shapes;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
 <div class="ttc" id="model_8h_html_a20f87b4e5f8cd3bd25dffa8e90e1340c"><div class="ttname"><a href="model_8h.html#a20f87b4e5f8cd3bd25dffa8e90e1340c">shapes_t</a></div><div class="ttdeci">std::unordered_map&lt; uint32_t, std::shared_ptr&lt; Shape &gt;&gt; shapes_t</div><div class="ttdef"><b>Definition:</b> model.h:7</div></div>
 <div class="ttc" id="class_model_html"><div class="ttname"><a href="class_model.html">Model</a></div><div class="ttdef"><b>Definition:</b> model.h:8</div></div>
 <div class="ttc" id="class_model_html_a3484c3b12fd36cfad3a747da1f7836a6"><div class="ttname"><a href="class_model.html#a3484c3b12fd36cfad3a747da1f7836a6">Model::addShape</a></div><div class="ttdeci">void addShape(std::shared_ptr&lt; Shape &gt; s)</div><div class="ttdef"><b>Definition:</b> model.h:12</div></div>
 <div class="ttc" id="observer_8h_html"><div class="ttname"><a href="observer_8h.html">observer.h</a></div></div>
+<div class="ttc" id="class_model_html_a7b8102ec95ed8796b01501bf054a3330"><div class="ttname"><a href="class_model.html#a7b8102ec95ed8796b01501bf054a3330">Model::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> model.h:22</div></div>
 <div class="ttc" id="stdafx_8h_html"><div class="ttname"><a href="stdafx_8h.html">stdafx.h</a></div></div>
 <div class="ttc" id="class_observable_html"><div class="ttname"><a href="class_observable.html">Observable</a></div><div class="ttdef"><b>Definition:</b> observer.h:12</div></div>
 <div class="ttc" id="class_observable_html_a173482a397ad2669b114a424bd2fe3ac"><div class="ttname"><a href="class_observable.html#a173482a397ad2669b114a424bd2fe3ac">Observable::notifyUpdate</a></div><div class="ttdeci">void notifyUpdate()</div><div class="ttdef"><b>Definition:</b> observer.h:22</div></div>
 <div class="ttc" id="shape_8h_html"><div class="ttname"><a href="shape_8h.html">shape.h</a></div></div>
-<div class="ttc" id="class_model_html_aefac93c7d48c75209a496e24fa67b1b7"><div class="ttname"><a href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">Model::getShapes</a></div><div class="ttdeci">const shapes_t &amp; getShapes()</div><div class="ttdef"><b>Definition:</b> model.h:22</div></div>
+<div class="ttc" id="class_model_html_aefac93c7d48c75209a496e24fa67b1b7"><div class="ttname"><a href="class_model.html#aefac93c7d48c75209a496e24fa67b1b7">Model::getShapes</a></div><div class="ttdeci">const shapes_t &amp; getShapes()</div><div class="ttdef"><b>Definition:</b> model.h:27</div></div>
 <div class="ttc" id="class_model_html_ad606d11bbdc31559c1c31e42c739deb8"><div class="ttname"><a href="class_model.html#ad606d11bbdc31559c1c31e42c739deb8">Model::removeShape</a></div><div class="ttdeci">void removeShape(uint32_t id)</div><div class="ttdef"><b>Definition:</b> model.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

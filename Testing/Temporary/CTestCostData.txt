@@ -1,2 +1,2 @@
-test_shape_factory 1 0.00278997
+test_shape_factory 1 0.00284386
 ---

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['serialize',['serialize',['../class_shape.html#acf559a2d89e7560fbfb40a01b21f81b5',1,'Shape']]],
-  ['setmodel',['setModel',['../class_view.html#aae801a3576c7b6c236ede6d4d6717c06',1,'View']]],
-  ['shape',['Shape',['../class_shape.html#aaa8d87171e65e0d8ba3c5459978992a7',1,'Shape']]],
-  ['shapefactoryregister',['ShapeFactoryRegister',['../struct_shape_factory_register.html#afe57a75d42e2446d3587f11cfd7f9138',1,'ShapeFactoryRegister']]],
-  ['square',['Square',['../class_square.html#afd27b0650fb7baa1dacb2a452aba121e',1,'Square']]]
+  ['registry',['registry',['../class_shape_factory.html#a9f7601b28898cb767d3c1932b88dd3e8',1,'ShapeFactory']]],
+  ['removeshape',['removeShape',['../class_controller.html#a31d66b8d2e987c91011c8a86acea7378',1,'Controller::removeShape()'],['../class_model.html#ad606d11bbdc31559c1c31e42c739deb8',1,'Model::removeShape()']]]
 ];
