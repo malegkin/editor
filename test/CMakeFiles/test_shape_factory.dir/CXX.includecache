@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/travis/build/malegkin/editor/test/test_shape_factory.cpp
+stdafx.h
+/home/travis/build/malegkin/editor/test/stdafx.h
+boost/test/unit_test.hpp
+-
+shape.h
+/home/travis/build/malegkin/editor/test/shape.h
+typeinfo
+-
+
+src/include/shape.h
+stdafx.h
+src/include/stdafx.h
+
+src/include/stdafx.h
+iostream
+-
+string
+-
+vector
+-
+list
+-
+map
+-
+functional
+-
+memory
+-
+unordered_map
+-
+

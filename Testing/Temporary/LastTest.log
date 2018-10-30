@@ -1,0 +1,34 @@
+Start testing: Oct 30 22:09 UTC
+----------------------------------------------------------
+1/1 Testing: test_shape_factory
+1/1 Test: test_shape_factory
+Command: "/home/travis/build/malegkin/editor/test/test_shape_factory"
+Directory: /home/travis/build/malegkin/editor/test
+"test_shape_factory" start time: Oct 30 22:09 UTC
+Output:
+----------------------------------------------------------
+Running 3 test cases...
+Entering test suite "test_foo"
+Entering test suite "test_shape_factory"
+Entering test case "test_shape_factory__check_circle_creating"
+/home/travis/build/malegkin/editor/test/test_shape_factory.cpp(13): info: check nullptr != dynamic_cast<Circle*>( ShapeFactory::instantiate(Shapes::CIRCLE, 1, 2, 3).get() ) passed
+Leaving test case "test_shape_factory__check_circle_creating"; testing time: 103mks
+Entering test case "test_shape_factory__check_ellipse_creating"
+/home/travis/build/malegkin/editor/test/test_shape_factory.cpp(17): info: check nullptr != dynamic_cast<Ellipse*>( ShapeFactory::instantiate(Shapes::ELLIPSE, 1, 2, 3, 4, 5).get() ) passed
+Leaving test case "test_shape_factory__check_ellipse_creating"; testing time: 83mks
+Entering test case "test_shape_factory__check_square_creating"
+/home/travis/build/malegkin/editor/test/test_shape_factory.cpp(21): info: check nullptr != dynamic_cast<Square*>( ShapeFactory::instantiate(Shapes::SQUARE, 1, 2, 3, 4).get() ) passed
+Leaving test case "test_shape_factory__check_square_creating"; testing time: 91mks
+Leaving test suite "test_shape_factory"
+Leaving test suite "test_foo"
+
+*** No errors detected
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_shape_factory" end time: Oct 30 22:09 UTC
+"test_shape_factory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 30 22:09 UTC

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['architecture_5fid',['ARCHITECTURE_ID',['../_c_make_c_compiler_id_8c.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCCompilerId.c'],['../_c_make_c_x_x_compiler_id_8cpp.html#aba35d0d200deaeb06aee95ca297acb28',1,'ARCHITECTURE_ID():&#160;CMakeCXXCompilerId.cpp']]]
+  ['_5fid',['_id',['../class_shape.html#a5de5f48a04ef525d02a7d27b81a47c70',1,'Shape']]],
+  ['_5ftotal',['_total',['../class_shape.html#ac4eb4a54d573863e093d46c707160aa5',1,'Shape']]]
 ];

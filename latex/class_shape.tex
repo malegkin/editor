@@ -1,0 +1,108 @@
+\hypertarget{class_shape}{\section{Shape Class Reference}
+\label{class_shape}\index{Shape@{Shape}}
+}
+
+
+{\ttfamily \#include $<$shape.\-h$>$}
+
+
+
+Inheritance diagram for Shape\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_shape__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_shape_aaa8d87171e65e0d8ba3c5459978992a7}{Shape} ()
+\item 
+uint32\-\_\-t \hyperlink{class_shape_a485401efc7beb1725c272264374f8822}{get\-Id} ()
+\item 
+virtual void \hyperlink{class_shape_afacc5aad8e37308c3ce8fef768199b05}{draw} ()=0
+\item 
+virtual std\-::string \hyperlink{class_shape_acf559a2d89e7560fbfb40a01b21f81b5}{serialize} ()
+\item 
+virtual void \hyperlink{class_shape_a96e9c57c68f2947ec6093c942e7f7681}{deserialize} (const std\-::string \&)
+\item 
+virtual \hyperlink{class_shape_ac8ad2fd02e1e94beeb98e65ab795cd56}{$\sim$\-Shape} ()=default
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint32\-\_\-t \hyperlink{class_shape_a5de5f48a04ef525d02a7d27b81a47c70}{\-\_\-id}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static uint32\-\_\-t \hyperlink{class_shape_ac4eb4a54d573863e093d46c707160aa5}{\-\_\-total} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_shape_aaa8d87171e65e0d8ba3c5459978992a7}{\index{Shape@{Shape}!Shape@{Shape}}
+\index{Shape@{Shape}!Shape@{Shape}}
+\subsubsection[{Shape}]{\setlength{\rightskip}{0pt plus 5cm}Shape\-::\-Shape (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_shape_aaa8d87171e65e0d8ba3c5459978992a7}
+\hypertarget{class_shape_ac8ad2fd02e1e94beeb98e65ab795cd56}{\index{Shape@{Shape}!$\sim$\-Shape@{$\sim$\-Shape}}
+\index{$\sim$\-Shape@{$\sim$\-Shape}!Shape@{Shape}}
+\subsubsection[{$\sim$\-Shape}]{\setlength{\rightskip}{0pt plus 5cm}virtual Shape\-::$\sim$\-Shape (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}}\label{class_shape_ac8ad2fd02e1e94beeb98e65ab795cd56}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_shape_a96e9c57c68f2947ec6093c942e7f7681}{\index{Shape@{Shape}!deserialize@{deserialize}}
+\index{deserialize@{deserialize}!Shape@{Shape}}
+\subsubsection[{deserialize}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Shape\-::deserialize (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_shape_a96e9c57c68f2947ec6093c942e7f7681}
+\hypertarget{class_shape_afacc5aad8e37308c3ce8fef768199b05}{\index{Shape@{Shape}!draw@{draw}}
+\index{draw@{draw}!Shape@{Shape}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Shape\-::draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_shape_afacc5aad8e37308c3ce8fef768199b05}
+
+
+Implemented in \hyperlink{class_ellipse_a312c0cf0e855dc79d37c07ec52bf202e}{Ellipse}, \hyperlink{class_square_a2a8be87e5cb58dd25a8af0f6166536b9}{Square}, and \hyperlink{class_circle_a3a3f7166e7f629e44f9044b0e537eb22}{Circle}.
+
+\hypertarget{class_shape_a485401efc7beb1725c272264374f8822}{\index{Shape@{Shape}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!Shape@{Shape}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}uint32\-\_\-t Shape\-::get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_shape_a485401efc7beb1725c272264374f8822}
+\hypertarget{class_shape_acf559a2d89e7560fbfb40a01b21f81b5}{\index{Shape@{Shape}!serialize@{serialize}}
+\index{serialize@{serialize}!Shape@{Shape}}
+\subsubsection[{serialize}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string Shape\-::serialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{class_shape_acf559a2d89e7560fbfb40a01b21f81b5}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_shape_a5de5f48a04ef525d02a7d27b81a47c70}{\index{Shape@{Shape}!\-\_\-id@{\-\_\-id}}
+\index{\-\_\-id@{\-\_\-id}!Shape@{Shape}}
+\subsubsection[{\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}uint32\-\_\-t Shape\-::\-\_\-id\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_shape_a5de5f48a04ef525d02a7d27b81a47c70}
+\hypertarget{class_shape_ac4eb4a54d573863e093d46c707160aa5}{\index{Shape@{Shape}!\-\_\-total@{\-\_\-total}}
+\index{\-\_\-total@{\-\_\-total}!Shape@{Shape}}
+\subsubsection[{\-\_\-total}]{\setlength{\rightskip}{0pt plus 5cm}uint32\-\_\-t Shape\-::\-\_\-total = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}}\label{class_shape_ac4eb4a54d573863e093d46c707160aa5}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/include/\hyperlink{shape_8h}{shape.\-h}\end{DoxyCompactItemize}

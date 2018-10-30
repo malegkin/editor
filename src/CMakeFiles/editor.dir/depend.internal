@@ -3,4 +3,9 @@
 
 src/CMakeFiles/editor.dir/main.cpp.o
  /home/travis/build/malegkin/editor/src/main.cpp
+ src/include/controller.h
+ src/include/model.h
+ src/include/observer.h
+ src/include/shape.h
  src/include/stdafx.h
+ src/include/view.h

@@ -115,6 +115,61 @@ clean: src/CMakeFiles/editor.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory test
+
+# Convenience name for "all" pass in the directory.
+test/all: test/CMakeFiles/test_shape_factory.dir/all
+
+.PHONY : test/all
+
+# Convenience name for "clean" pass in the directory.
+test/clean: test/CMakeFiles/test_shape_factory.dir/clean
+
+.PHONY : test/clean
+
+# Convenience name for "preinstall" pass in the directory.
+test/preinstall:
+
+.PHONY : test/preinstall
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test_shape_factory.dir
+
+# All Build rule for target.
+test/CMakeFiles/test_shape_factory.dir/all:
+	$(MAKE) -f test/CMakeFiles/test_shape_factory.dir/build.make test/CMakeFiles/test_shape_factory.dir/depend
+	$(MAKE) -f test/CMakeFiles/test_shape_factory.dir/build.make test/CMakeFiles/test_shape_factory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/travis/build/malegkin/editor/CMakeFiles --progress-num=3,4 "Built target test_shape_factory"
+.PHONY : test/CMakeFiles/test_shape_factory.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/test_shape_factory.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test_shape_factory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/malegkin/editor/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test_shape_factory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/travis/build/malegkin/editor/CMakeFiles 0
+.PHONY : test/CMakeFiles/test_shape_factory.dir/rule
+
+# Convenience name for target.
+test_shape_factory: test/CMakeFiles/test_shape_factory.dir/rule
+
+.PHONY : test_shape_factory
+
+# clean rule for target.
+test/CMakeFiles/test_shape_factory.dir/clean:
+	$(MAKE) -f test/CMakeFiles/test_shape_factory.dir/build.make test/CMakeFiles/test_shape_factory.dir/clean
+.PHONY : test/CMakeFiles/test_shape_factory.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/test_shape_factory.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

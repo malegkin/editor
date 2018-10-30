@@ -22,10 +22,15 @@ set( CMAKE_CXX_STANDARD_REQUIRED ON )
 
 #global settings
 include_directories("${CMAKE_SOURCE_DIR}/src/include")
+find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -Wno-unused-parameter")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -DDEBUG")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+add_definitions(-DBOOST_TEST_DYN_LINK)
 
+
+enable_testing()
 add_subdirectory(src)
+add_subdirectory(test)
 

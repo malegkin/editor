@@ -60,15 +60,15 @@ include src/CMakeFiles/editor.dir/flags.make
 src/CMakeFiles/editor.dir/main.cpp.o: src/CMakeFiles/editor.dir/flags.make
 src/CMakeFiles/editor.dir/main.cpp.o: src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/travis/build/malegkin/editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/editor.dir/main.cpp.o"
-	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/editor.dir/main.cpp.o -c /home/travis/build/malegkin/editor/src/main.cpp
+	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/editor.dir/main.cpp.o -c /home/travis/build/malegkin/editor/src/main.cpp
 
 src/CMakeFiles/editor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/editor.dir/main.cpp.i"
-	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/travis/build/malegkin/editor/src/main.cpp > CMakeFiles/editor.dir/main.cpp.i
+	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/travis/build/malegkin/editor/src/main.cpp > CMakeFiles/editor.dir/main.cpp.i
 
 src/CMakeFiles/editor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/editor.dir/main.cpp.s"
-	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/travis/build/malegkin/editor/src/main.cpp -o CMakeFiles/editor.dir/main.cpp.s
+	cd /home/travis/build/malegkin/editor/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/travis/build/malegkin/editor/src/main.cpp -o CMakeFiles/editor.dir/main.cpp.s
 
 src/CMakeFiles/editor.dir/main.cpp.o.requires:
 
@@ -90,6 +90,7 @@ editor_EXTERNAL_OBJECTS =
 
 src/editor: src/CMakeFiles/editor.dir/main.cpp.o
 src/editor: src/CMakeFiles/editor.dir/build.make
+src/editor: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 src/editor: src/CMakeFiles/editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/travis/build/malegkin/editor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable editor"
 	cd /home/travis/build/malegkin/editor/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/editor.dir/link.txt --verbose=$(VERBOSE)
