@@ -5,6 +5,9 @@
 #include <vector>
 #include <list>
 #include <map>
+#include <functional>
+#include <memory>
+#include <unordered_map>
 
 
 //simple blunt solution for output only in debug build
